@@ -1,0 +1,15 @@
+package com.bryce.book.core.theSecondChapter.two_two.t7;
+
+/**
+ * @author huff
+ * @date 2020/3/17 16:37
+ */
+public class Run {
+    public static void main(String[] args) {
+        Task task =new Task();
+        MyThread1 thread1 = new MyThread1(task);
+        thread1.start();
+        MyThread2 thread2 = new MyThread2(task);
+        thread2.start();
+    }
+}
