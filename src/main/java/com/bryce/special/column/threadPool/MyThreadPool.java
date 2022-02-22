@@ -13,7 +13,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  */
 
 //简化的线程池，仅用来说明工作原理
-class MyThreadPool {
+class   MyThreadPool {
     //利用阻塞队列实现生产者-消费者模式
     BlockingQueue<Runnable> workQueue;
     //保存内部工作线程
