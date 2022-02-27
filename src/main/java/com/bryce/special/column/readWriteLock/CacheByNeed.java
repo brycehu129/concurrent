@@ -1,4 +1,4 @@
-package com.bryce.special.column.ReadWriteLock;
+package com.bryce.special.column.readWriteLock;
 
 import java.util.HashMap;
 import java.util.Map;
